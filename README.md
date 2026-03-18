@@ -24,7 +24,7 @@ Also, the project should be compatible with the RPi Pico 2 that has a **Cortex-M
 | Raspberry Pi Pico **2** | RP2350          | 2     | ARM **Cortex-M33** + Hazard3 RISC-V |
 
 ## Prerequisites
-~1.0-1.5 GB of free disk space
+**~1.0 GB** of free disk space not counting the toolchain. Ideally, you should have at least **4.0 GB** of free disk space to comfortably build the project and run the toolchain.
 
 gcc compiler toolchain for arm (not on host machine)
 
