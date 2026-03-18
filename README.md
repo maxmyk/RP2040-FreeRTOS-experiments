@@ -24,6 +24,7 @@ Also, the project should be compatible with the RPi Pico 2 that has a **Cortex-M
 | Raspberry Pi Pico **2** | RP2350          | 2     | ARM **Cortex-M33** + Hazard3 RISC-V |
 
 ## Prerequisites
+~1.0-1.5 GB of free disk space
 
 gcc compiler toolchain for arm (not on host machine)
 
@@ -65,7 +66,7 @@ Two visualization modes are available:
 
 #### Absolute Heat Mode
 
-- Maps temperature to a fixed range (default: 20 °C to 35 °C)
+- Maps temperature to a fixed range (default: 15 °C to 35 °C)
 
 #### Adaptive Heat Mode
 

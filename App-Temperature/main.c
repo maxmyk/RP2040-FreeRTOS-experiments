@@ -20,7 +20,7 @@
 
 // 0 = absolute, 1 = adaptive
 #define DEFAULT_MODE 1
-#define ABSOLUTE_TEMP_MIN_C 20.0f
+#define ABSOLUTE_TEMP_MIN_C 15.0f
 #define ABSOLUTE_TEMP_MAX_C 35.0f
 #define ADAPTIVE_MIN_SPAN_C 2.0f
 #define ADAPTIVE_RELAX_FACTOR 0.02f
