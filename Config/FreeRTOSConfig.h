@@ -26,6 +26,7 @@
 #ifndef FREERTOS_CONFIG_H
 #define FREERTOS_CONFIG_H
 
+// #define configENABLE_MPU 0
 
 /* Use Pico SDK ISR handlers */
 #define vPortSVCHandler         isr_svcall

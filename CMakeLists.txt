@@ -46,6 +46,7 @@ add_library(FreeRTOS STATIC
     ${FREERTOS_SRC_DIRECTORY}/timers.c
     ${FREERTOS_SRC_DIRECTORY}/portable/MemMang/heap_3.c
     ${FREERTOS_SRC_DIRECTORY}/portable/GCC/ARM_CM0/port.c
+    # ${FREERTOS_SRC_DIRECTORY}/portable/GCC/ARM_CM0/portasm.c
 )
 
 # Build FreeRTOS
@@ -54,6 +55,8 @@ target_include_directories(FreeRTOS PUBLIC
     ${FREERTOS_SRC_DIRECTORY}/include
     ${FREERTOS_SRC_DIRECTORY}/portable/GCC/ARM_CM0
 )
+
+# target_compile_features(FreeRTOS PUBLIC c_std_11)
 
 # Include the apps' source code
 add_subdirectory(${APP_1_SRC_DIRECTORY})
